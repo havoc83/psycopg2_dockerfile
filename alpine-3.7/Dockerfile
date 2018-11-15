@@ -15,4 +15,4 @@ WORKDIR /usr/src/app
 RUN pip install --upgrade pip \
  && pip install psycopg2
 
-CMD ["/bin/sh"]
+CMD ["python"]
